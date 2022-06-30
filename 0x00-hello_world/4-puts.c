@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main function - prints a string
+ * main - Prints "Proggramming is like building a multilingual puzzle
  */
 int main(void)
 {

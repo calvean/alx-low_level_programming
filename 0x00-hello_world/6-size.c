@@ -13,9 +13,9 @@ int main(void)
 	float floatType;
 
 	printf("size of a char: %1u byte\(s\)\n", sizeof(charType));
-	printf("size of an int: %1u byte\(s\)\n", sizeof(intType));
-	printf("size of a long int: %1u byte\(s\)\n", sizeof(longintType));
-	printf("size of a long long int: %1u byte\(s\)\n", sizeof(longlongintType));
-	printf("size of a float: %1u byte\(s\)\n", sizeof(floatType));
+	printf("size of an int: %d byte\(s\)\n", sizeof(intType));
+	printf("size of a long int: %d byte\(s\)\n", sizeof(longintType));
+	printf("size of a long long int: %d byte\(s\)\n", sizeof(longlongintType));
+	printf("size of a float: %d byte\(s\)\n", sizeof(floatType));
 	return (0);
 }

@@ -18,8 +18,11 @@ int main(void)
 				putchar(i);
 				putchar(j);
 				putchar(32);
-				if (i < 57 && j < 57)
+				putchar(44);
+				/*
+				if (i <= 57 && j < 57)
 					putchar(44);
+					*/
 			}
 		}
 	}

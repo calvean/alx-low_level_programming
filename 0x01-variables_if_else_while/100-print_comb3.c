@@ -23,7 +23,7 @@ int main(void)
 			}
 		}
 	}
-	puchar(10);
+	putchar(10);
 
 	return (0);
 }

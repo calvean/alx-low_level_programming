@@ -15,7 +15,7 @@ int main(void)
 		{
 			if (j > i)
 			{
-				putch(i);
+				putchar(i);
 				putchar(j);
 			}
 		}

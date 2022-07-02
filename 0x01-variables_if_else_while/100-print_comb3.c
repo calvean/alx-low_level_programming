@@ -8,9 +8,10 @@ int main(void)
 {
 	int i;
 	int j;
-	for (i = 0; i < 10; i++)
+
+	for (i = 48; i <= 57; i++)
 	{
-		for (j = 0; j < 10; j++)
+		for (j = 48; j <= 57; j++)
 		{
 			if (j > i)
 			{
@@ -19,6 +20,7 @@ int main(void)
 			}
 		}
 	}
+
 	return (0);
 }
 

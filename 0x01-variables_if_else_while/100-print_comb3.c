@@ -18,9 +18,12 @@ int main(void)
 				putchar(i);
 				putchar(j);
 				putchar(32);
+				/*
 				if (j <= 57)
 					putchar(44);
+					*/
 			}
+			putchar(44);
 		}
 	}
 	putchar(10);

@@ -31,7 +31,7 @@ int main(void)
 						putchar(k);
 						putchar(m);
 						
-						if (i == 54 && j == 55 && k == 56 && m == 57)
+						if (i == 57 && j == 56 && k == 57 && m == 56)
 							continue;
 						/*prtint space*/
 						putchar(44);

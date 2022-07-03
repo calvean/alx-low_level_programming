@@ -10,6 +10,8 @@ int main(void)
 	int j;
 	int k;
 	int m;
+	int op1;
+	int op2;
 	/*my code*/
 	for (i = 48; i <= 57; i++)
 	{
@@ -19,7 +21,9 @@ int main(void)
 			{
 				for (m = 48; m <= 57; m++)
 				{
-					if (m > k || j > i)
+					op1 = (i * 10) + j;
+					op2 = (k * 10) + m;
+					if (op1 < op2)
 					{
 						putchar(i);
 						putchar(j);

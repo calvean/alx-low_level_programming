@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
- *main - prints combinations
+ * main - prints combinations
  *
- * Return: 0 sucess
+ * Return: 0 if sucess
  */
 int main(void)
 {
 	int i;
 	int j;
-	
+	/*my code*/
 	for (i = 48; i <= 57; i++)
 	{
 		for (j = 48; j <= 57; j++)

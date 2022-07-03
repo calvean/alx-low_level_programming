@@ -32,7 +32,7 @@ int main(void)
 						putchar(m);
 						
 						if (i == 57 && j == 56 && k == 57 && m == 56)
-							continue;
+							break;
 						/*prtint space*/
 						putchar(44);
 						putchar(32);

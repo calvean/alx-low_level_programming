@@ -24,7 +24,7 @@ int main(void)
 
 					if (i == 55 && j == 56 && k == 57)
 						continue;
-					
+					/*prtint space*/
 					putchar(44);
 					putchar(32);
 				}

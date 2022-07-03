@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main - prints combinations
- *Return: 0 sucess 
+ *Return: 0 sucess
  */
 int main(void)
 {

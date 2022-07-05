@@ -6,9 +6,11 @@
  */
 int _islower(int c)
 {
-	for (c = 0; c <= 122; c++)
+	int r;
+
+	for (r = 0; r <= 122; r++)
 	{
-		if (_islower(c))
+		if (_islower(r))
 		{
 			return (1);
 		}

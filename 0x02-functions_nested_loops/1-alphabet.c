@@ -10,7 +10,7 @@ int main(void)
 
 	for (c = 97; c <= 122; c++)
 	{
-		print_alphabet(c);
+		print_alphabet();
 		_putchar(c);
 	}
 	_putchar(10);

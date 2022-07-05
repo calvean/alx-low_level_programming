@@ -4,15 +4,13 @@
  *
  * Return: 0 always
  */
-int main(void)
+void print_alphabet(void)
 {
 	int c;
 
 	for (c = 97; c <= 122; c++)
 	{
-		print_alphabet();
 		_putchar(c);
 	}
 	_putchar(10);
-	return (0);
 }

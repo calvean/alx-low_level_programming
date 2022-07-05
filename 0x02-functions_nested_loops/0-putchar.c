@@ -11,7 +11,7 @@ int main(void)
 
 	for (c =0; c < sizeof(putch); c++)
 	{
-		_putchar(putchar[c]);
+		_putchar(putch[c]);
 	}
 	_putchar('\n');
 	return (0);

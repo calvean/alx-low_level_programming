@@ -6,8 +6,6 @@
  */
 int _islower(int c)
 {
-	int c;
-	/*my code*/
 	for (c = 0; c <= 122; c++)
 	{
 		if (_islower(c))

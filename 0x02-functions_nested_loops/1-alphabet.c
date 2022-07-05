@@ -7,10 +7,11 @@
 int main(void)
 {
 	int c;
+	print_alphabet(void)
 
 	for (c = 97; c <= 122; c++)
 	{
-		_print_alphabet(c);
+		_putchar(c);
 	}
 	_putchar(10);
 	return (0);

@@ -8,7 +8,7 @@ int _islower(int c)
 {
 	if (_islower(c) > 0)
 	{
-		_putchar(c + '0'); 
+		_putchar(_islower(c)); 
 		return (1);
 	}
 	else

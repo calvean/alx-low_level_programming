@@ -7,6 +7,7 @@
 int main(void)
 {
 	unsigned long int i, j, k, j1, j2, k1, k2;
+	/*after declaertion*/
 	j = 1;
 	k = 2;
 	/*my code here*/

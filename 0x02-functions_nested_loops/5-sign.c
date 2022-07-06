@@ -2,6 +2,7 @@
 /***
  * print_sign - prints sign
  *
+ * @n: interger of function
  * Return: 0 always
  */
 int print_sign(int n)
@@ -11,7 +12,7 @@ int print_sign(int n)
 		_putchar('+');
 		return (1);
 	}
-	esle if (n < 0)
+	else if (n < 0)
 	{
 		_putchar('-');
 		return (-1);

@@ -6,8 +6,9 @@
  * @b: 2nd integer
  * Return: 0 always
  */
-int add(int, int)
+int add(int a, int b)
 {
-	printf("%d", (a + b));
+	int sum = a + b;
+	_putchar(sum);
 	return (0);
 }

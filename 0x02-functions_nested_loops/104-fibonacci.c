@@ -10,13 +10,18 @@ int main(void)
 	j = 1;
 	k = 2;
 	/*my code here*/
-	printf("%lu", k);
+	printf("%lu", j);
 	for (i = 1; i < 91; i++)
 	{
 		printf(", %lu", k);
 		k = k + j;
 		j = k - j;
 	}
+	j1 = j / 1000000000;
+	j2 = j % 1000000000;
+	k1 = k / 1000000000;
+	k2 = k % 1000000000;
+	/*another condition*/
 	for (i = 92; i < 99; i++)
 	{
 		printf(", %lu", k1 + (k2 / 1000000000));

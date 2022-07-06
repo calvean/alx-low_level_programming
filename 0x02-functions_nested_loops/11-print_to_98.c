@@ -3,19 +3,36 @@
 /**
  * print_to_98 - print natural numbers
  *
+ * @n: interger
  * Return: 0
  */
 void print_to_98(int n)
 {
-	int i;
-	for (i = n; i <= 98; i++)
+	if (n <= 98)
 	{
-		if (i > 98)
-			break;
-		if (i == 98)
-			printf("%d\n", i);
+		while (n <= 98)
+		{
+			ptintf("%d", n);
+			if (n == 98)
+			{
+				printf("\n");
+				break;
+			}
+			printf(", ");
+			n++;
+		}
 		else
-			printf("%d, ", i);
+			while (n >= 98)
+			{
+				printf("%d", n);
+				if (n == 98)
+				{
+					printf("\n");
+					break;
+				}
+				printf(", ");
+				n--;
+			}
 	}
 }
 

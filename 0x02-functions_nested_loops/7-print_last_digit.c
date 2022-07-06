@@ -2,7 +2,7 @@
 /**
  * print_last_digit - prints last digit
  *
- * @c: interger argument
+ * @n: interger argument
  * Return: integer
  */
 int print_last_digit(int n)

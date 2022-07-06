@@ -1,6 +1,6 @@
 #include "main.h"
-/***
- * print_sign - prints sign
+/**
+ * print_sign - function
  *
  * @n: interger of function
  * Return: 0 always

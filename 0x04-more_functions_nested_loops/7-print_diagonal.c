@@ -15,6 +15,7 @@ void print_diagonal(int n)
 	{
 		if (i <= 0)
 		{
+			_putchar(36);
 			_putchar('\n');
 		}
 		else

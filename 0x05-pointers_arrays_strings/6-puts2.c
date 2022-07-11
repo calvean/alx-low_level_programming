@@ -21,4 +21,5 @@ void puts2(char *str)
 			continue;
 		printf("%c", str[i]);
 	}
+	printf("\n");
 }

@@ -15,7 +15,7 @@ void puts_half(char *str)
 
 	if ((n - 1) / 2 == 0)
 	{
-		for (i = 0; i < n / 2; i++)
+		for (i = 0; i <= (n - 1) / 2; i++)
 		{
 			printf("%c", str[i]);
 		}

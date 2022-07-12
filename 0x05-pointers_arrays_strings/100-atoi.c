@@ -1,29 +1,29 @@
 #include <stdio.h>
-#include <conio.h>
+#include "main.h"
  
-int main(){
-    char inputString[20];
-    int sign = 1, number = 0, index = 0;
-    printf("Enter a String for Integer conversion \n");
-    gets(inputString);
-    /* Check for negative numbers */
-    if(inputString[0] == '-'){
-        sign = -1;
-        index = 1;
-    }
-     
-    while(inputString[index] != '\0'){
-        if(inputString[index] >= '0' && inputString[index] <= '9'){
-            number = number*10 + inputString[index] - '0';
-        } else {
-            break;
-        }
-        index++;
-    }
-    /* multiply number with sign to make it negative number if sign < 0*/
-    number = number * sign;
-    printf("String : %s \n", inputString);
-    printf("Integer: %d \n", number);
-    getch();
-    return 0;
+int _atoi(char *s)
+{
+	int sign = 1, num = 0, i = 0;
+	
+
+	/* Check for negative numbers */
+	if(s[0] == '-')
+	{
+		sign = -1;
+		i = 1;
+	}
+	while(s[i] != '\0')
+	{
+		if(s[i] >= '0' && s[i] <= '9')
+			num = num * 10 + s[i] - '0';
+		else
+		{
+			return (0);
+			break;
+		}
+		i++;
+	}
+	/* multiply number with sign to make it negative number if sign < 0*/
+	num = num * sign;
+	return (num);
 }

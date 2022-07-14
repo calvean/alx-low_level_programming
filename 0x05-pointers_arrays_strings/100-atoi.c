@@ -1,29 +1,33 @@
-#include <stdio.h>
 #include "main.h"
- 
+
+/**
+* _atoi - Convert a string to integer
+*
+* @s: char array string
+* Return: first integer
+*/
+
 int _atoi(char *s)
 {
-	int sign = 1, num = 0, i = 0;
-	
+	int i, h, p;
 
-	/* Check for negative numbers */
-	if(s[0] == '-')
+	h = 0;
+	p = -1;
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		sign = -1;
-		i = 1;
-	}
-	while(s[i] != '\0')
-	{
-		if(s[i] >= '0' && s[i] <= '9')
-			num = num * 10 + s[i] - '0';
-		else
+		if (s[i] == '-')
+			p *= -1;
+		if (s[i] > 47 && s[i] < 58)
 		{
-			return (0);
-			break;
+			if (h < 0)
+				h = (h * 10) - (s[i] - '0');
+			else
+				h = (s[i] - '0') * -1;
+			if (s[i + 1] < 48 || s[i + 1] > 57)
+				break;
 		}
-		i++;
 	}
-	/* multiply number with sign to make it negative number if sign < 0*/
-	num = num * sign;
-	return (num);
+	if (p < 0)
+		h *= -1;
+	return (h);
 }

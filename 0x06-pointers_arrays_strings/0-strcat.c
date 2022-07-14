@@ -19,4 +19,4 @@ char *_strcat(char *dest, char *src)
 	while ((dest[i++] = src[j++]) != '\0')
 		;
 	return (dest);
-}	
+}

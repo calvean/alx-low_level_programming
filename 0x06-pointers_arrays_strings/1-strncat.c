@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - appends src to the dest 
+ * _strncat - appends src to the dest
  * @dest: string to append by src
  * @src: string to append to dest
  * @n: number of bytes to append

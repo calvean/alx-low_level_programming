@@ -1,13 +1,13 @@
-#includmain.h"
+#include "main.h"
 
 /**
- * _memcpy - copies memory area
- * @dest: destination of copy
+ * _memcpy - copies memory
+ *
+ * @dest: copy dest
  * @src: memory area to copy
  * @n: number of bytes to copy
- *
- * Return: pointer to d
-
+ * Return: pointer to dest
+*/
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;

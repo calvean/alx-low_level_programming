@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * sqrt_check - checks square root of j
- * @g:guess at sqrt
- * @c: number to find sqrt of
+ * check_root - checks square root of j
+ * @i:guess at sqrt
+ * @j: number to find sqrt of
  *
  * Return: -1 or sqrt of c
  */

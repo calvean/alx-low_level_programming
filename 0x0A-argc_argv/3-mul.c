@@ -4,9 +4,8 @@
 /**
  * main - multiplies two numbers
  *
- * @argc: num of args passed 
- * @argv: arg vector pointers 
- *
+ * @argc: num of args passed
+ * @argv: arg vector pointers
  * Return: 0 if no errors, else 1
  */
 int main(int argc, char *argv[])

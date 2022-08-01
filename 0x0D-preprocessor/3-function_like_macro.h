@@ -1,4 +1,1 @@
-#ifndef ABS
-#define ABS(x) (abs(x))
-#include <stdlib.h>
-#endif /* ABS */
+#define ABS(x) x*((2*x+1)%2)

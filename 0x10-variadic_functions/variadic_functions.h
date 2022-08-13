@@ -7,7 +7,11 @@ int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
-
+/**
+ * struct print - structure for printing various types
+ * @t: type to print
+ * @f: function to print
+ */
 typedef struct print
 {
 	char *t;
